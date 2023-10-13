@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9b9fc13f.css",
+    "main.js": "/portfolio/static/js/main.458bf2aa.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/pexels-frank-cone-3573555.jpg": "/portfolio/static/media/pexels-frank-cone-3573555.07c13bafa986f7c56aab.jpg",
+    "static/media/noxe.png": "/portfolio/static/media/noxe.87681b68200612934c12.png",
+    "static/media/youtube.png": "/portfolio/static/media/youtube.c12b899fc240ff240f8b.png",
+    "static/media/festival.png": "/portfolio/static/media/festival.e34c1682ef95904af99e.png",
+    "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.ca65459a3146705f7f3e.png",
+    "static/media/mealify.png": "/portfolio/static/media/mealify.d16eafb11a76c8d01cde.png",
+    "static/media/meals.png": "/portfolio/static/media/meals.72ba48cb36c3f5780fee.png",
+    "static/media/quiz.png": "/portfolio/static/media/quiz.711e6b01d7fc5faf3c7a.png",
+    "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/wheather.png": "/portfolio/static/media/wheather.68b24ba1954e90337cb2.png",
+    "static/media/fokir.png": "/portfolio/static/media/fokir.6ff280b7f5ff6af99c4a.png",
+    "static/media/crypto.png": "/portfolio/static/media/crypto.ad3d403bde1310e40020.png",
+    "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/portfolio/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/portfolio/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/smart login system.png": "/portfolio/static/media/smart login system.e9b0ca4fd53e54a1afd5.png",
+    "static/media/start react theme.png": "/portfolio/static/media/start react theme.66378841cfea2ad89fb6.png",
+    "static/media/Bookmarker.png": "/portfolio/static/media/Bookmarker.b3fc3e30f4bbee482b7a.png",
+    "static/media/fa-regular-400.woff2": "/portfolio/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/crud.png": "/portfolio/static/media/crud.65f4184b163a3c4ca6e2.png",
+    "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/portfolio/index.html",
+    "main.9b9fc13f.css.map": "/portfolio/static/css/main.9b9fc13f.css.map",
+    "main.458bf2aa.js.map": "/portfolio/static/js/main.458bf2aa.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b9fc13f.css",
+    "static/js/main.458bf2aa.js"
+  ]
+}
