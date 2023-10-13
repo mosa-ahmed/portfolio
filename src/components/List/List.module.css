@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.title{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
+.bgColor{
+    background-image: linear-gradient(rgba(42, 14, 46, 0.8),50%,#000);
+    height:100vh;
+}
+.content {
+    background-color: #ffffff95;
+    padding:30px 50px;
+    transition: all 0.3s ease-in-out;
+}
+.content:hover{
+    transform: scale(1.03);
+    background-color: #e7e7e7;
+}
+.list{
+    animation-name: list;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes list {
+    0%{transform: translateX(-150px);opacity: 0;}
+    100%{transform: translateX(0px);opacity: 1;}
+}
+@media screen  and (max-width:756px){
+    .content,.content:hover {
+        background-color: transparent;
+        padding:10px 10px;
+    }
+    .imageport{
+        width: 90px;
+    }
+    .title{
+        font-size: 24px;
+    }
+}
+@media screen  and (min-width:757px) and (max-width:992px){
+    .content {
+        background-color: #ffffff95;
+        padding:20px 25px;       
+    }
+    .imageport{
+        width: 110px;
+    }
+    .title{
+        font-size: 28px;
+    }
+}

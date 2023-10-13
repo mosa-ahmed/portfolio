@@ -1,0 +1,9 @@
+.line{
+    width: 100%;
+    max-width: 5rem;
+    height: 0.1rem;
+    background-color: #fff;
+}
+.iconColor{
+    color: #fff;
+}

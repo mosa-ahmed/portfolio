@@ -1,0 +1,86 @@
+.contact{
+    background-image: linear-gradient(rgba(42, 14, 46, 0.8),50%,#000);
+    height:100vh;
+}
+.bgform{
+    background-image: linear-gradient(#fffaff80,#fff);
+    animation-name: form;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+input::placeholder,textarea::placeholder{
+    color: #fff!important;
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+input,textarea{
+    color: white!important;
+}
+input,textarea:focus{
+    box-shadow: none!important;
+}
+.portfolioicons{
+    width:45px;
+    height:45px;
+    border:2.5px solid white;
+    margin: 5px;
+    border-radius: 50%;
+ }
+ .portfolioicons:hover{
+    background-color: #ebe5e5ab;
+    border-color:#ffffff;
+ }
+ .portfolioicons:hover i{
+    color: black;
+}
+@keyframes animate {
+    0%{transform: translateX(-100px);opacity: 0;}
+    100%{transform: translateX(0px);opacity: 0.9;}
+}
+@keyframes animated {
+    0%{transform: translateX(-100px);opacity: 0;}
+    100%{transform: translateX(0px);opacity: 0.9;}
+}
+
+@keyframes form{
+    0%{transform: translateX(100px);opacity: 0;}
+    100%{transform: translateX(0px);opacity: 0.9;}
+}
+@media screen and (min-width:992px){
+    .animated{
+        transform: translateX(0px);
+        animation-name: animate;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        opacity: 1;
+    }
+    .animate{
+        transform: translateX(0px);
+        animation-name: animated;
+        animation-duration: 2.3s;
+        animation-iteration-count: 1;
+        opacity: 1;
+    }
+    .animation{
+        transform: translateX(0px);
+        animation-name: animated;
+        animation-duration: 2.5s;
+        animation-iteration-count: 1;
+        opacity: 1;
+    }
+}
+@media screen and (max-width:756px) {
+    .bgContact{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media screen and (max-width:992px) {
+    .contact{
+        height: 100%;
+    }
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Gabriela&family=Lobster&display=swap');
+.home{
+    background-image: url('../../assets/imgs/pexels-frank-cone-3573555.jpg');
+    background-position: center 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.overlay{
+    background-color: rgba(27, 9, 29, 0.75);   
+}
+.homeContent h1{
+   font-size: 70px;
+   font-weight: 600;
+   font-family: 'Gabriela', serif;
+}
+.homeContent p{
+    font-size: 40px;
+    font-family: 'Gabriela', serif;
+}
+.portfolioIcons{
+    width:45px;
+    height:45px;
+    border:2.5px solid white;
+    margin: 5px;
+    border-radius: 50%;
+ }
+ .portfolioIcons:hover{
+     background-color: #ebe5e5ab;
+     border-color:#ffffff;
+ }
+ .portfolioIcons:hover i{
+     color: black;
+ }
+ @media screen and (max-width:992px) {
+    .homeContent h1{
+        font-size: 50px;
+    }
+    .homeContent p{
+        font-size: 30px;
+    }
+}

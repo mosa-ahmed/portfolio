@@ -1,0 +1,46 @@
+.bgskills{
+    background-image: linear-gradient(rgb(177, 168, 179),rgb(136, 133, 133));
+}
+.skillsBg{
+    background-image: linear-gradient(rgba(42, 14, 46, 0.8),50%,#000);
+    height:100vh;
+}
+.skill{
+    transform: translateY(0px);
+    animation-name: move;
+    animation-duration: 0.38s;
+    animation-iteration-count: 1;
+    transition: all 0.2s;
+}
+.h2skills{
+    font-family:cursive;
+    font-weight: bold;
+    font-size:25px;
+}
+strong{
+    font-size:14px;
+}
+.bgskills2{
+    background-image: linear-gradient(rgb(136, 133, 133),#b1a8b3);
+}
+.skill2{
+   transform: translateY(0px);
+   animation-name: moving;
+   animation-duration: 0.38s;
+   animation-iteration-count: 1;
+}
+@keyframes move {
+    0%{transform: translateY(-100px);opacity: 0;}
+    50%{transform: translateY(-50px);opacity:0.5;}
+    100%{transform: translateY(0px);opacity: 1;}
+}
+@keyframes moving {
+    0%{transform: translateY(100px);opacity: 0;}
+    50%{transform: translateY(50px);opacity:0.5;}
+    100%{transform: translateY(0px);opacity: 1;}
+}
+@media screen and (max-width:992px) {
+    .skillsBg{
+        height: 100%;
+    }
+}

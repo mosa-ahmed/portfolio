@@ -1,0 +1,37 @@
+.bgAbout{
+    background-image: linear-gradient(rgba(42, 14, 46, 0.8),50%,#000);
+    height:100vh;
+}
+.bgContent{
+    background-image: linear-gradient(#ffffff99,#fff);
+    border-bottom: #63035e 2px dashed;
+    border-left:#63035e 2px dashed;
+}
+.paragraph{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+@media screen and (min-width:992px) {
+    .bgContent{
+      transform: translateX(0px);
+      animation-name: about;
+      animation-duration: 2s;
+      animation-iteration-count: 1;
+    }
+}
+@media screen and (max-width:992px) {
+    .bgAbout{
+      padding-top: 30px;
+      height: 100vh !important;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@keyframes about {
+    0%{transform: translateX(80px);opacity: 0.2;}
+    100%{transform: translateX(0px);opacity: 1;}
+  }

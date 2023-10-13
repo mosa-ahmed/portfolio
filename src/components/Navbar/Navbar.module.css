@@ -1,0 +1,59 @@
+.sidebar{
+    bottom: 2.5%;
+    right: 50%;
+    position: fixed;
+    background-color: #ffffff95;
+    z-index: 99;
+    padding: 9px 9px 9px 0;
+    transform: translateX(50%);
+    border-radius: 9px;
+}
+.button,.fingerprint{
+  background-color: rgba(0,0,0,0.8);
+  border: none;
+  margin-left: 7px;
+  padding: 5px 0;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+.button:hover,.fingerprint:hover{
+  background-color:#63035e;
+}
+.button:hover span{
+  display: block;
+}
+.button:hover,.btn:hover img{
+  transform: scale(1.05);
+}
+.fingerprint:hover{
+  transform: scale(1.05);
+}
+.button img{
+  width: 38%;
+}
+span{
+ bottom:160%;
+ left:50%;
+ background-color: #63035e;
+ font-weight: 500;
+ display: none;
+ font-size: 14px;
+}
+.icon{
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size:24px;
+}
+
+@media screen and (max-width:992px) {
+  .button{
+    display: none;
+  }
+  .sidebar{
+    background-color: transparent;
+  }
+  .icon{
+    padding: 15px 20px;
+  }
+ 
+}
