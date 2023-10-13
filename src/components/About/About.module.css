@@ -22,7 +22,7 @@
 @media screen and (max-width:992px) {
     .bgAbout{
       padding-top: 30px;
-      height: 100vh !important;
+      height: 100%;
     }
     .list{
         display: flex;
